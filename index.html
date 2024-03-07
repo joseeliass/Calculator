@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="result" id="result">0</div>
+      <div class="buttons">
+        <button class="button-gray" onclick="AC()">AC</button>
+        <button class="button-gray" onclick="PlusMinus()">+/-</button>
+        <button class="button-gray" onclick="Percentage()">%</button>
+        <button class="button-orange" onclick="Divide()">/</button>
+        <button class="button" onclick="Num('7')">7</button>
+        <button class="button" onclick="Num('8')">8</button>
+        <button class="button" onclick="Num('9')">9</button>
+        <button class="button-orange" onclick="Multiply()">
+          <div class="mult">*</div>
+        </button>
+        <button class="button" onclick="Num('4')">4</button>
+        <button class="button" onclick="Num('5')">5</button>
+        <button class="button" onclick="Num('6')">6</button>
+        <button class="button-orange" onclick="Minus()">-</button>
+        <button class="button" onclick="Num('1')">1</button>
+        <button class="button" onclick="Num('2')">2</button>
+        <button class="button" onclick="Num('3')">3</button>
+        <button class="button-orange" onclick="Plus()">+</button>
+        <button class="button-zero" onclick="Num('0')">0</button>
+        <button class="button" onclick="Dot('.')">.</button>
+        <button class="button-orange" onclick="Equal()">=</button>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
